@@ -68,6 +68,7 @@ public class JedisDemo1 {
         jedis.auth("zxb98571654321");
         jedis.zadd("china", 100d, "shanghai");
         Set<String> china = jedis.zrange("china", 0, -1);
+       //sout
         System.out.println(china);
     }
 
